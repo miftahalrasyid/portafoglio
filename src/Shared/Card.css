@@ -1,0 +1,14 @@
+.card-container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 250px;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-right: 1rem;
+}
+
+.card-container img {
+  height: 100%;
+}
+/*# sourceMappingURL=Card.css.map */

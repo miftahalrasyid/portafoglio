@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  background-color: #e9e0d3;
+}
+
+html, body {
+  margin: 0;
+  background-color: #e9e0d3;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav ul div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul li {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #E5D2B7;
+}
+
+@font-face {
+  font-family: 'futura std';
+  src: url("./fonts/Futura Std Medium.otf") format("opentype");
+}
+
+.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #7eaf97;
+  height: 5rem;
+  width: 100%;
+  z-index: 2;
+  color: #E5D2B7;
+  position: fixed;
+  top: 0;
+  font-family: 'futura std';
+  font-size: 14pt;
+}
+
+.main-header nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div li[data-focus="loginbtn"] {
+  cursor: pointer;
+  z-index: 1;
+}
+
+div li[data-focus="logoutbtn"] {
+  cursor: pointer;
+}
+
+div li[data-focus="registerbtn"] {
+  cursor: pointer;
+  z-index: 1;
+}
+/*# sourceMappingURL=App.css.map */

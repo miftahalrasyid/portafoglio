@@ -1,0 +1,57 @@
+$primary-color: #e9e0d3;
+$navbar-color: #7eaf97;
+$darkerNav-color: #669177;
+// $navbar-color: #98c8b0;
+// $font-color: rgb(135, 127, 95);
+$font-color: #E5D2B7;
+.loginContainer{
+    display: flex;
+    position: absolute;
+    right:0;
+    top:3.2rem;
+    flex-direction: column;
+    margin: auto;
+    width: 12.2vw;
+    height: fit-content;
+    padding: 0 11px;
+  // padding-block-start: 2rem;
+  border-radius: 0.5rem;
+  border-bottom-right-radius: 0px;
+  background-color: #7eaf97;
+  .title{
+    text-align:left;
+    li{
+      // width:100%;
+    }
+  }
+  hr{
+    width: 2.9rem;
+    border: 3px solid;
+    margin: 0.7rem 0.75rem;
+    margin-block-start: 1.4rem;
+  }
+  input:not([type='submit']){
+    border-radius: 3px;
+    border: 0;
+    height: 20px;
+    text-indent: 0.5rem;
+    margin-bottom: 0.7rem;
+    font-family: 'futura std';
+    font-size:10pt;
+  }
+  input[type='submit']{
+    border-radius: 3px;
+    background:#7eaf97;
+    border: 3px solid $font-color;
+    height: 30px;
+    color: $font-color;
+    // text-indent: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'futura std';
+    font-size:10pt;
+  }
+  span{
+    margin-top: -0.5rem;
+    margin-bottom: 0.1rem;
+  }
+  }

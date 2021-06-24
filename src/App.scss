@@ -1,0 +1,64 @@
+$primary-color: #e9e0d3;
+$navbar-color: #7eaf97;
+$darkerNav-color: #669177;
+// $navbar-color: #98c8b0;
+// $font-color: rgb(135, 127, 95);
+$font-color: #E5D2B7;
+.App {
+    text-align: center;
+    background-color: $primary-color;
+  }
+  html,body{
+      margin:0;
+    background-color: $primary-color;
+  }
+  nav ul {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    div{
+        display:flex;
+    }
+    li{
+        cursor: pointer;
+        display: inline-block;
+        margin-right: 1rem;
+        a{
+          text-decoration: none;
+          color: $font-color;
+        }
+    }
+  } 
+  @font-face {
+    font-family: 'futura std';
+    // src: url("./fonts/Futura Std Medium.otf") format('opentype');
+    src: url("./fonts/Futura\ Std\ Medium.otf") format('opentype');
+  }
+  .main-header{
+    display: flex;
+    background-color: #7eaf97;
+    height: 5rem;
+    width: 100%;
+    z-index: 2;
+    color: #E5D2B7;
+    position: fixed;
+    top:0;
+    font-family: 'futura std';
+    font-size: 14pt;
+    nav{
+        width:100%;
+        display: flex;
+        align-items: center;
+    }
+  }
+  div li[data-focus="loginbtn"]{
+    cursor:pointer;
+    z-index:1;
+  }
+  div li[data-focus="logoutbtn"]{
+    cursor:pointer;
+  }
+  div li[data-focus="registerbtn"]{
+    cursor:pointer;
+    z-index: 1;
+  }

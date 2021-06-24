@@ -1,0 +1,92 @@
+$primary-color: #e9e0d3;
+$navbar-color: #7eaf97;
+$darkerNav-color: #669177;
+// $navbar-color: #98c8b0;
+// $font-color: rgb(135, 127, 95);
+$font-color: #E5D2B7;
+
+  .primary-txt-container{
+    width: 35vw;
+    // margin-left: 2rem;
+    text-align: justify;
+    word-wrap: break-word;
+
+  }
+  .primary-content-header{
+    display:flex;
+    width:90%;
+    margin:auto;
+    justify-content: space-evenly;
+    // margin: 0 2rem;
+    img{
+      width:350px;
+      height: intrinsic;
+      box-shadow: 3px 5px 10px -5px black;
+      margin-bottom:3rem;
+    }
+    p{
+      
+      font-family: 'futura std';
+      line-height: 1.5rem;
+    }
+  }
+.heading{
+    position:relative;
+    top:5rem;
+    span{
+      position: absolute;
+      left: 42rem;
+      top: 11rem;
+      font-size: 30pt;
+    }
+    button{
+      position: absolute;
+      left: 47rem;
+      top: 21rem;
+      width: 175px;
+      height: 50px;
+      font-size: 12pt;
+      color:$font-color;
+      background: $navbar-color;
+      border: none;
+      border-radius:30px;
+    }
+  }
+  .bicycle-parts{
+    width: 100%;
+    position: relative;
+    height: 47vw;
+    overflow: hidden;
+    img{
+      width: 100%;
+      transform: scale(1.7);
+      transform-origin: 38vw 47vw;
+      position: absolute;
+      left: 0;
+      /* top: 0rem; */
+      // clip: rect(17vh, 77.2vw, 57vh, 18.3vw);
+    }
+    h2{
+      position: absolute;
+      z-index: 1;
+      color: white;
+      text-align: end;
+      font-family: "Heiti SC";
+      font-size: 2.5vw;
+      margin-inline-start: .5rem;
+      margin-block-start: 7.7vw;
+      font-weight: bold;
+    }
+  }
+
+  .features{
+    position:relative;
+    top:5rem;
+    h2{
+      text-align: left;
+      font-family: "Heiti SC";
+      font-size: 2.5vw;
+      margin-inline-start: 1.2rem;
+      font-weight: bold;
+    }
+  }
